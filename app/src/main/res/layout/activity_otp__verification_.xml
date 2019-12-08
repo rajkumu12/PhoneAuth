@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Otp_Verification_Activity">
+
+
+   <EditText
+       android:layout_width="220dp"
+       android:layout_height="wrap_content"
+       android:id="@+id/et_otp"
+       android:padding="8dp"
+       android:background="#E4E2E2"
+       android:hint="Enter Otp"/>
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#2E2E2E"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+</LinearLayout>
